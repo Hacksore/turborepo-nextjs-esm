@@ -3,7 +3,7 @@
 How do you use ESM with NextJS and Turborepo?
 
 ### The problem
-I want to load  `shared/utils/*` files from the nextjs `apps/web` project but currently get error saying:
+I want to load  `packages/shared/utils/*` files from the nextjs `apps/web` project but currently get error saying:
 
 ```
 web:dev: error - ./pages/index.tsx:2:0
