@@ -1,5 +1,4 @@
-// TODO: this should load from packages/shared/utils/user
-import { getNiceNumber } from "shared/utils/user";
+import { getNiceNumber } from "shared";
 
 export default function Web() {
   return (
