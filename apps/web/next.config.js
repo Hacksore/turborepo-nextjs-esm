@@ -1,14 +1,6 @@
-/*
-// commonjs way:
-const withTM = require("next-transpile-modules")(["ui"]);
+import withTM from "next-transpile-modules";
 
-module.exports = withTM({
-  reactStrictMode: true,
-});
-*/
-
-const nextConfig = {
-  reactStrictMode: true,
-}
+// use withTM with ESM like so - credit to @mattpocockuk
+const nextConfig = withTM(["shared"])({ reactStrictMode: true });
 
 export default nextConfig;
